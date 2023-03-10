@@ -1,0 +1,8 @@
+<h1>Bookmarks</h1>
+<%= simple_form_for[@bookmarks, @lists] do |f| %>
+  <%= f.input :moive %>
+  <%= f.input :title %>
+  <%= f.input :list %>
+  <%= f.input :comment %>
+  <%= f.submit "comment " %>
+<% end %>

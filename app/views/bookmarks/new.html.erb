@@ -1,0 +1,8 @@
+<h1>Bookmarks</h1>
+<%= simple_form_for [@list, @bookmark] do |f| %>
+  <%= f.input :comment %>
+  <%= f.text_field :comment %>
+  <%= f.label :movie %>
+  <%= f.accociation :movie %>
+  <%= f.submit %>
+<% end %>
